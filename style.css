@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Inter:wght@300&family=Montserrat:wght@200&family=Nunito+Sans:opsz,wght@6..12,300&family=Oswald&family=Roboto:wght@300&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    background-image: url(./images/Image.png);
+    background-size: 100% 100%;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar
+{
+    background-color: #303030;
+    width: 100%;
+    height: 90px;
+    float: left;
+}
+.container
+{
+    width: 1140px;
+    margin:0 auto;
+}
+.logo
+{
+    float: left;
+    width: 20%;
+}
+.logo img
+{
+    margin:9px;
+}
+.menu
+{
+    width:70%;
+    float: left;
+}
+.menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.menu ul li
+{
+    font-family: "Oswald";
+    font-size: 22px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.search
+{
+    float: left;
+    margin: 20px;
+}
+.search img
+{
+    margin-top: 10px;
+}
+.contentbanner
+{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.title
+{
+
+    width: 37%;
+    float: left;
+    padding: 250px 0px 70px 0px;
+}
+.title h1
+{
+    font-family: "Oswald";
+    font-size: 75px;
+    color: #fff;
+}
+.title p
+{
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0px;
+}
+.btn{
+    font-family: "Oswald";
+    border-radius: 4px;
+    background-color: #e8631c;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 10px;
+    float: left;
+}
+.orangebg
+{
+    background-image: url(./images/orange\ bg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 90px 0px;
+    margin-bottom: -4px;
+}
+.head
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.head h1
+{
+    font-size: 70px;
+    font-family: "Oswald";
+    color: #fff;
+    text-transform: uppercase;
+}
+.head p
+{
+    font-family: "Montserrat";
+    margin: 20px 0px;
+    font-size: 25px;
+    color: #fff;
+}
+.card
+{
+    float: left;
+    display: inline-flex;
+    margin-top: 55px;
+    gap: 35px;
+}
+.items
+{
+    width: 73%;
+    background-color: #303030;
+}
+.content h3
+{
+    font-family: "Oswald";
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.content p
+{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-align: center;
+    width: 68%;
+    margin-left: 18%;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.orangebg img
+{
+    width: 100%;
+}
+.blackbg
+{
+    background-image: url(./images/Black\ Background.png);
+    background-size: 100% 100%;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -4px;
+    padding: 50px 0px 90px 0px;
+}
+.icon img
+{
+    width: 35%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.blackbg .content h3
+{
+    font-size: 35px;
+    margin: 10px;
+    padding: 8px;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+.blackbg .content p
+{
+    width: 69%;
+    font-size: 17px;
+    padding: 10px 0px;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.blackbg .items
+{
+    background-color: #e8631c;
+    width: 35%;
+    border-radius: 5px;
+}
+.blackbg .card{
+    gap: 40px;
+    padding-left: 40px;
+    float: left;
+    display: inline-flex;
+}
+.btnn 
+{
+    font-family: "Oswald";
+    border-radius: 2px;
+    background-color: #303030;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 45px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 26px;
+    margin-bottom: 28px;
+    width: 60%;
+}
+.double
+{
+    background-image: url(./images/Background.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.double .image img
+{
+    width: 50%;
+    float: left;
+}
+.double .title
+{
+    margin-top: 253px;
+    padding: 76px;
+}
+.double .title h1
+{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.double .title .btn
+{
+    font-size: 22px;
+    background-color: #303030;
+    padding: 15px;
+    width: 40%;
+}
+.double .title p
+{
+    font-size: 22px;
+}
+.doubles .images img
+{
+    float: right;
+    width: 50%;
+}
+.doubles
+{
+    background-image: url(./images/Background\ left.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.doubles .title
+{
+    margin-top: 253px;
+    padding: 76px;
+}
+.doubles .title h1
+{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.doubles .title p
+{
+    font-size: 22px;
+}
+.doubles .title .btn
+{
+    font-size: 22px;
+    background-color: #303030;
+    padding: 15px;
+    width: 40%;
+}
+.simple
+{
+    background-image: url(./images/simple.png);
+    background-size: 100% 100%;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px 110px 0px;
+    margin-bottom: -4px;
+}
+.simple .card
+{
+    display: inline-flex;
+    margin-top: 85px;
+    gap: 237px;
+    text-align: center;
+    padding: 46px;
+    float: left;
+}
+.simple .content h1
+{
+    font-size: 70px;
+    color: #ffffff;
+    font-family: "Oswald";
+}
+.simple .content p
+{
+    font-size: 28px;
+    white-space: nowrap;
+    margin-left: 0px;
+}
+.blur
+{
+    background-image: url(./images/Blur\ pic.png);
+    background-size: 100% 100%;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0px 345px 0px;
+}
+.simple .head p
+{
+    font-size: 25px;
+}
+.blur .heads
+{
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    width: 53%;
+}
+.blur .heads p
+{
+    font-size: 39px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 10px;
+}
+.blur .heads h1
+{
+    font-size: 67px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.subscribe
+{
+    background-image: url(./images/subscribe.png);
+    background-size: 100% 100%;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0px 150px 0px;
+    margin-bottom: -4px;
+}
+.srch
+{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.srch input
+{
+    padding: 15px;
+    width: 30%;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    padding-top: 18px;
+}
+.srch button
+{
+    padding: 10px;
+    font-family: 'Oswald';
+    color: #ffffff;
+    background-color: #303030;
+    border: none;
+    width: 15%;
+    margin-left: -4px;
+    font-size: 18px;
+    height: 55px;
+}
+footer
+{
+    background-image: url(./images/footerBg.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+}
+.foot
+{
+    display: flex;
+}
+.music
+{
+    width: 40%;
+    margin: 70px;
+}
+.music h1
+{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    margin: 10px;
+
+}
+.music p
+{
+margin: 10px;
+color: #ffffff;
+font-family: 'Montserrat';
+font-size: 20px;
+margin-top: 35px;
+}
+.music .icons
+{
+margin: 10px;
+margin-top: 35px;
+}
+.column
+{
+display: flex;
+margin: 70px;
+width: 60%;
+}
+.col1
+{
+width: 36%;
+}
+.col1 h1
+{
+margin: 10px;
+color: #ffffff;
+text-transform: uppercase;
+font-family: 'Oswald';
+margin-bottom: 35px;
+}
+.col1 ul
+{
+list-style: none;
+margin: 10px;
+color: #ffffff;
+font-size: 20px;
+font-family: 'Montserrat';
+line-height: 2;
+}
+.mob-menu
+{
+    display:none;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.fa-solid
+{
+    color:#fff !important;
+}
+@media only screen and (min-width:320px) and (max-width:470px)
+{
+    .menu ul {
+        z-index: 1;
+        position: absolute;
+        display: block;
+        list-style: none;
+        color: #000;
+        margin-top: 25px;
+        margin-left: 0px;;
+        background-color: #fff;
+        width: 80%;
+    }
+    .mob-menu
+    {
+        display: block;
+    }
+    .container
+    {
+        width:100%;
+    }
+    .menu 
+    {
+        display: none;
+    }
+    .search
+    {
+        display: none;
+    }
+    .title {
+        width: 100%;
+        padding: 50px 15px 70px 15px;
+    }
+    .header
+    {
+        background-size: 100% 100%;
+    }
+    .items {
+        width: 90%;
+        background-color: #303030;
+        margin-left: 22px;
+    }
+    .card {
+                    
+        display: inline-flex;
+                    
+        flex-direction: column;
+    }
+    .blackbg .items {
+         width: 80%;
+    }
+    .double .image img {
+         width: 100%;
+    }
+    .double .title {
+         margin-top: 50px;
+         padding: 15px;
+    }
+    .doubles .images img {
+         width: 100%;
+        margin-top: 50px;
+    }
+    .doubles .title {
+        margin-top: 50px;
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    .simple{
+        padding: 110px 0px 0px 0px;
+    }
+    .simple .card {
+        margin-top: 0px;
+        gap: 110px;
+        padding: 100px
+    }
+    .blur{
+        padding: 150px 0px 100px 0px;
+        background-size: 100% 100%;
+    }
+    .blur .heads p {
+        font-size: 22px;
+        margin:  -17px;
+    }
+    .blur .heads h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .subscribe
+    {
+        margin-bottom: -6px;
+    }
+    .srch button{
+        width: 25%;
+    }
+    .srch input{
+         width: 40%;
+    }
+    .foot
+    {
+        flex-direction: column;
+    }
+    .music {
+         width: 80%;
+         margin: 60px;
+    }
+    .column{
+        width: 100%;
+        margin: 20px;
+    }
+
+}
